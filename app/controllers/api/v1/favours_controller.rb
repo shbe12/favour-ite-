@@ -1,4 +1,4 @@
-class FavoursController < ApplicationController
+class Api::V1::FavoursController < ApplicationController
   before_action :set_favour, only: %i[ show update destroy ]
 
   # GET /favours
